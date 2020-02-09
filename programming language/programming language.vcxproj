@@ -115,11 +115,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Container_Constr.cpp" />
+    <ClCompile Include="Container_In.cpp" />
+    <ClCompile Include="Container_Out.cpp" />
+    <ClCompile Include="Language_In.cpp" />
+    <ClCompile Include="Language_Out.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ObjectOriented_Out.cpp" />
+    <ClCompile Include="Procedural_Out.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
     <Text Include="output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Container.h" />
+    <ClInclude Include="Language.h" />
+    <ClInclude Include="ObjectOriented.h" />
+    <ClInclude Include="Procedural.h" />
+    <ClInclude Include="Type.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

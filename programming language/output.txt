@@ -2,12 +2,10 @@ Filled container.
 Container contains that elements:
 0: It is Procedural:   abstrat data type = 0, data = 1950
 1: It is Procedural:   abstrat data type = 0, data = 1953
-2: Incorrect figure!
-3: It is Object-Oriented: inheritance = 1, data = 1970
-4: It is Procedural:   abstrat data type = 1, data = 1960
-5: Incorrect figure!
-6: Incorrect figure!
-7: It is Object-Oriented: inheritance = 1, data = 1973
-8: It is Procedural:   abstrat data type = 1, data = 1971
-Empty container. 
+2: Incorrect type of language!
+3: Incorrect type of language!
+4: It is Object-Oriented: inheritance = MULTIPLE, data = 1973
+5: It is Object-Oriented: inheritance = MULTIPLE, data = 1970
+6: It is Procedural:   abstrat data type = 1, data = 1971
+7: It is Procedural:   abstrat data type = 1, data = 1960
 Container is empty!
