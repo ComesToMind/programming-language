@@ -9,7 +9,7 @@ void In(Container &c, ifstream &ifst)
 	{
 
 		Container *temp = new Container;
-		if ((&c == c.Next) && (c.L == NULL))
+		if ((&c == c.Next)&&(!ifst.tellg()))
 		{
 			c.L = In(ifst);
 		}
@@ -20,12 +20,24 @@ void In(Container &c, ifstream &ifst)
 			//c.Next = temp; // предыдущий узел указывает на создаваемый
 			//temp->L = In(ifst); // сохранение поля данных добавляемого узла
 			//temp->Next = p;// созданный узел указывает на следующий элемент
+		
+			//идем на последний элемент
+			Container *counter = c.Next;
+			while(counter->Next != &c)
+			{
+				counter = counter->Next;
 
-			Container *p;
-			p = c.Next->Next; //сохранение указателя на последующий элемент
-			c.Next->Next = temp; // следующий элемент указывает на новый
+			}
+
+			counter->Next = temp;
 			temp->L = In(ifst);
-			temp->Next = p;
+			temp->Next = &c;
+
+			//Container *p;
+			//p = c.Next->Next; //сохранение указателя на последующий элемент
+			//c.Next->Next = temp; // следующий элемент указывает на новый
+			//temp->L = In(ifst);
+			//temp->Next = p;
 		}
 	}
 

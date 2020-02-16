@@ -1,7 +1,7 @@
 #include "Container.h"
 #include <fstream>
 using namespace std;
-void Out(Language &lg, ofstream &ofst);
+void Out(Language *lg, ofstream &ofst);
 void Out(Container &c, ofstream &ofst)
 {
 	if (&c != nullptr)
@@ -13,7 +13,7 @@ void Out(Container &c, ofstream &ofst)
 		do
 		{
 			ofst << i << ": ";
-			Out(*(temp->L), ofst);
+			Out(temp->L, ofst);
 			temp = temp->Next;
 			i++;
 		} while (temp != &c);

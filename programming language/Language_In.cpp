@@ -2,9 +2,10 @@
 #include <fstream>
 #include "Language.h"
 using namespace std;
-void * In(int key, ifstream &ifst)
+Language * In(int key, ifstream &ifst)
 {
-	char error[256];
+	//char error[256];
+	int inh;
 	switch (key)
 	{
 
@@ -12,14 +13,26 @@ void * In(int key, ifstream &ifst)
 		Procedural * p;
 		p = new Procedural;
 		p->mKey = type::PROCEDURAL;
-		ifst >> p->mAbstractDT >> p->mData;
-		return p;
+		ifst >> inh;
+		if (inh == 1 || inh == 0)
+		{
+			p->mAbstractDT = inh;
+			ifst >> p->mData;
+			return (Language *)p;
+		}
+		else
+		{
+			ifst >> p->mData;
+			return NULL;
+		}
+		
+		
 	case 2:
 
 		ObjectOriented * o;
 		o = new ObjectOriented;
 		o->mKey = type::OBJORIENTED;
-		int inh;
+		
 		ifst >> inh;
 		if (inh == 0)
 		{
@@ -35,14 +48,17 @@ void * In(int key, ifstream &ifst)
 		}
 		else
 		{
-			ifst.getline(error, 256);
-			return 0;
+			ifst >> o->mData;
+			//ifst.getline(error, 256);
+			return NULL;
 		}
 		ifst >> o->mData;
-		return o;
+		return (Language *)o;
 	default:
-		ifst.getline(error, 256);
-		return 0;
+		//дочитываем до конца, если не тот ключ
+		//ifst.getline(error, 256);
+		ifst >> inh >> inh;
+		return NULL;
 	}
 
 };
@@ -50,7 +66,7 @@ Language* In(ifstream &ifst) {
 	Language *lg;
 	int k;
 	ifst >> k;
-	lg = (Language *)(In(k, ifst));
+	lg = In(k, ifst);
 	return lg;
 
 };
