@@ -121,7 +121,9 @@
     <ClCompile Include="Language_In.cpp" />
     <ClCompile Include="Language_Out.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ObjectOriented_In.cpp" />
     <ClCompile Include="ObjectOriented_Out.cpp" />
+    <ClCompile Include="Procedural_In.cpp" />
     <ClCompile Include="Procedural_Out.cpp" />
   </ItemGroup>
   <ItemGroup>
