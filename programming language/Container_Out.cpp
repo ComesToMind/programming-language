@@ -2,6 +2,7 @@
 #include <fstream>
 using namespace std;
 void Out(Language *lg, ofstream &ofst);
+int YearsPassed(Language *lg);
 void Out(Container &c, ofstream &ofst)
 {
 	if (&c != nullptr)
@@ -14,6 +15,7 @@ void Out(Container &c, ofstream &ofst)
 		{
 			ofst << i << ": ";
 			Out(temp->L, ofst);
+			ofst << YearsPassed(temp->L) << " years have been passed!!!"<< endl;
 			temp = temp->Next;
 			i++;
 		} while (temp != &c);

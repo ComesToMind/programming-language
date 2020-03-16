@@ -4,6 +4,8 @@ using namespace std;
 
 void Out(Procedural *p, ofstream &ofst);
 void Out(ObjectOriented *o, ofstream &ofst);
+int YearsPassed(ObjectOriented *o);
+int YearsPassed(Procedural *o);
 void Out(Language *lg, ofstream &ofst)
 {
 	if (lg == NULL)
@@ -21,4 +23,23 @@ void Out(Language *lg, ofstream &ofst)
 			break;
 		}
 	}
+};
+int YearsPassed(Language *lg)
+{
+	if (lg != NULL)
+	{
+		switch (lg->mKey) {
+		case type::PROCEDURAL:
+			return YearsPassed((Procedural *)(lg));
+			break;
+		case type::OBJORIENTED:
+			return YearsPassed((ObjectOriented *)lg);
+			break;
+		}
+	}
+	else
+	{
+		return NULL;
+	}
+	
 };
