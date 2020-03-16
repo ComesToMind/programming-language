@@ -13,7 +13,14 @@ void Out(Container &c, ofstream &ofst)
 		do
 		{
 			ofst << i << ": ";
-			Out(temp->L, ofst);
+			if (temp->L->mKey == type::PROCEDURAL)
+			{
+				Out(temp->L, ofst);
+			}
+			else
+			{
+				ofst << endl;
+			}
 			temp = temp->Next;
 			i++;
 		} while (temp != &c);
