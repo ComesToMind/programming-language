@@ -1,10 +1,11 @@
-//#pragma once
+﻿//#pragma once
 #include <fstream>
 #include "Language.h"
 using namespace std;
 
 ObjectOriented* InOO(ifstream &ifst);
 Procedural * InProc(ifstream &ifst);
+Functional * InFunc(ifstream &ifst);
 Language * In(int key, ifstream &ifst)
 {
 	int inh;
@@ -14,8 +15,17 @@ Language * In(int key, ifstream &ifst)
 		return (Language *)InProc(ifst);
 	case 2:
 		return (Language *)InOO(ifst);
+	case 3: 
+		return (Language *)InFunc(ifst);
 	default:
-		ifst >> inh >> inh;
+		char b;
+		ifst >> b;
+		//÷èòàòåì äî êîíöà ñòðîêè
+		while (!ifst.eof() && ifst.peek() != '\n')
+		{
+			ifst >> b;
+			//b=?
+		}
 		return NULL;
 	}
 

@@ -4,6 +4,7 @@ using namespace std;
 
 void Out(Procedural *p, ofstream &ofst);
 void Out(ObjectOriented *o, ofstream &ofst);
+void Out(Functional *p, ofstream &ofst);
 void Out(Language *lg, ofstream &ofst)
 {
 	if (lg == NULL)
@@ -18,6 +19,9 @@ void Out(Language *lg, ofstream &ofst)
 			break;
 		case type::OBJORIENTED:
 			Out((ObjectOriented *)lg, ofst);
+			break;
+		case type::FUNCTIONAL:
+			Out((Functional *)lg, ofst);
 			break;
 		}
 	}
