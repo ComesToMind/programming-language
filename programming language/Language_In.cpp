@@ -15,7 +15,7 @@ Language * In(int key, ifstream &ifst)
 	case 2:
 		return (Language *)InOO(ifst);
 	default:
-		ifst >> inh >> inh;
+		ifst >> inh >> inh>>inh;
 		return NULL;
 	}
 

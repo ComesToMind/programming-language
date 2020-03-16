@@ -17,5 +17,5 @@ void Out(ObjectOriented *o, ofstream &ofst)
 	else
 		ofst << "INTERFACE";
 
-	ofst << ", data = " << o->mData << endl;
+	ofst << ", data = " << o->mData << ", References:  " << o->mRef << endl;
 };

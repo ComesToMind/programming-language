@@ -13,11 +13,13 @@ Procedural * InProc(ifstream &ifst)
 	{
 		p->mAbstractDT = inh;
 		ifst >> p->mData;
+		ifst >> p->mRef;
 		return p;
 	}
 	else
 	{
 		ifst >> p->mData;
+		ifst >> p->mRef;
 		return NULL;
 	}
 }

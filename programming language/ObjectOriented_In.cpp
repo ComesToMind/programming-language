@@ -25,10 +25,12 @@ ObjectOriented * InOO(ifstream &ifst)
 	else
 	{
 		ifst >> o->mData;
+		ifst >> o->mRef;
 		//ifst.getline(error, 256);
 		return NULL;
 	}
 	ifst >> o->mData;
+	ifst >> o->mRef;
 	return o;
 
 }

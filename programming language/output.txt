@@ -1,11 +1,13 @@
 Filled container. 
 Container contains that elements:
 0: Incorrect type of language!
-1: It is Procedural:   abstrat data type = 0, data = 1953
-2: It is Procedural:   abstrat data type = 1, data = 1960
-3: It is Procedural:   abstrat data type = 1, data = 1971
-4: It is Object-Oriented: inheritance = SINGLE, data = 1970
-5: It is Object-Oriented: inheritance = MULTIPLE, data = 1973
-6: It is Object-Oriented: inheritance = INTERFACE, data = 1975
-7: Incorrect type of language!
+1: Incorrect type of language!
+2: It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+3: It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+4: It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+5: Incorrect type of language!
+6: It is Procedural:   abstrat data type = 1, data = 2000, References:  222324
+7: It is Procedural:   abstrat data type = 0, data = 2001, References:  252627
+8: It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+9: It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
 Container is empty!
