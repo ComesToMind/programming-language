@@ -50,8 +50,16 @@ void Out(Container &c, ofstream &ofst)
 		do
 		{
 			ofst << i << ": ";
-			Out(temp->L, ofst);
-			ofst << YearsPassed(temp->L) << " years have been passed!!!"<< endl;
+			if (temp->L->mKey == type::PROCEDURAL)
+			{
+				Out(temp->L, ofst);
+				ofst << YearsPassed(temp->L) << " years have been passed!!!" << endl
+			}
+			else
+			{
+				ofst << endl;
+			}
+			;
 			temp = temp->Next;
 			i++;
 		} while (temp != &c);
