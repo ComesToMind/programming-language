@@ -45,6 +45,9 @@
     <ClCompile Include="ObjectOriented_In.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Language_Compare.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
     <ClCompile Include="Functional_In.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
