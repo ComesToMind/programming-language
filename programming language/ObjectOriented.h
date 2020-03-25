@@ -12,4 +12,5 @@ struct ObjectOriented
 	};
 	inheritance mInher;
 	short int mData;
+	int mRef;
 };
