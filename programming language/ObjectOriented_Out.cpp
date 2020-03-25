@@ -20,8 +20,8 @@ void Out(ObjectOriented *o, ofstream &ofst)
 		ofst << "INTERFACE";
 
 	ofst << ", data = " << o->mData << ", References:  " << o->mRef << endl;
-}; endl;
-};
+}; 
+
 int YearsPassed(ObjectOriented *o)
 {
 	time_t seconds = time(NULL);

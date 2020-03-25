@@ -29,6 +29,7 @@ int main(int argc, char* argv[])
 	Sort(c);
 	Out(*c, ofst);
 
+	ofst << endl << endl;
 	Clear(c);
 	//ofst << "Empty container. " << endl;
 	Out(*c, ofst);

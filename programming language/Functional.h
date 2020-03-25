@@ -4,6 +4,7 @@ struct Functional
 {
 	type mKey;
 	short int mData;
+	int mRef;
 	unsigned short int mLazyCalculations;
 	enum typification
 	{

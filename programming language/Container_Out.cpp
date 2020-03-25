@@ -44,25 +44,36 @@ void Out(Container &c, ofstream &ofst)
 	if (&c != nullptr)
 	{
 		ofst << "Container contains that elements:" << endl;
-		Container *temp;
+		Container *temp, *temp2;
 		temp = &c;
+		temp2 = &c;
 		int i = 0;
 		do
 		{
 			ofst << i << ": ";
-			if (temp->L->mKey == type::PROCEDURAL)
+			Out(temp->L, ofst);
+			ofst << YearsPassed(temp->L) << " years have been passed!!!" << endl;
+			temp = temp->Next;
+			i++;
+		} while (temp != &c);
+
+		 i = 0;
+		do
+		{
+			ofst << i << ": ";
+			if (temp2->L!=NULL&&temp2->L->mKey == type::PROCEDURAL)
 			{
-				Out(temp->L, ofst);
-				ofst << YearsPassed(temp->L) << " years have been passed!!!" << endl
+				Out(temp2->L, ofst);
+				ofst << YearsPassed(temp2->L) << " years have been passed!!!" << endl;
 			}
 			else
 			{
 				ofst << endl;
 			}
-			;
-			temp = temp->Next;
+			temp2 = temp2->Next;
 			i++;
-		} while (temp != &c);
+		} while (temp2 != &c);
+
 	}
 	else
 	{

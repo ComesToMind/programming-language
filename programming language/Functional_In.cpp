@@ -17,6 +17,7 @@ Functional * InFunc(ifstream &ifst)
 	{
 		ifst >>inh; //type
 		ifst >> inh; //data
+		ifst >> inh;//ref
 		return NULL;
 	}
 	ifst >> inh;
@@ -31,8 +32,10 @@ Functional * InFunc(ifstream &ifst)
 	else
 	{
 		ifst >> inh; //data
+		ifst >> inh;//ref
 		return NULL;
 	}
 	ifst >> f->mData;
+	ifst >> f->mRef;
 	return f;
 }
