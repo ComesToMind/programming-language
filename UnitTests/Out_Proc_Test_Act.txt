@@ -1,0 +1,1 @@
+It is Procedural:   abstrat data type = 0, data = 2000, References:  20000

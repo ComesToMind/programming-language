@@ -15,9 +15,13 @@ Functional * InFunc(ifstream &ifst)
 	}
 	else
 	{
-		ifst >>inh; //type
-		ifst >> inh; //data
-		ifst >> inh;//ref
+		char b;
+		ifst >> b;
+		while (!ifst.eof() && ifst.peek() != '\n')
+		{
+			ifst >> b;
+			//b=?
+		}
 		return NULL;
 	}
 	ifst >> inh;
@@ -31,8 +35,13 @@ Functional * InFunc(ifstream &ifst)
 	}
 	else
 	{
-		ifst >> inh; //data
-		ifst >> inh;//ref
+		char b;
+		ifst >> b;
+		while (!ifst.eof() && ifst.peek() != '\n')
+		{
+			ifst >> b;
+			//b=?
+		}
 		return NULL;
 	}
 	ifst >> f->mData;

@@ -18,8 +18,13 @@ Procedural * InProc(ifstream &ifst)
 	}
 	else
 	{
-		ifst >> p->mData;
-		ifst >> p->mRef;
+		char b;
+		ifst >> b;
+		while (!ifst.eof() && ifst.peek() != '\n')
+		{
+			ifst >> b;
+			//b=?
+		}
 		return NULL;
 	}
 }

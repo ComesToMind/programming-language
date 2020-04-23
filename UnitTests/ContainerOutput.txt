@@ -1,0 +1,34 @@
+Container contains that elements:
+0: It is Procedural:   abstrat data type = 0, data = 1950, References:  1234
+70 years have been passed!!!
+1: It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+50 years have been passed!!!
+2: It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+49 years have been passed!!!
+3: It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+47 years have been passed!!!
+4: It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+45 years have been passed!!!
+5: It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+40 years have been passed!!!
+6: It is Procedural:   abstrat data type = 1, data = 2000, References:  222324
+20 years have been passed!!!
+7: It is Procedural:   abstrat data type = 0, data = 2001, References:  252627
+19 years have been passed!!!
+8: It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+18 years have been passed!!!
+9: It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+17 years have been passed!!!
+0: It is Procedural:   abstrat data type = 0, data = 1950, References:  1234
+70 years have been passed!!!
+1: 
+2: 
+3: 
+4: 
+5: 
+6: It is Procedural:   abstrat data type = 1, data = 2000, References:  222324
+20 years have been passed!!!
+7: It is Procedural:   abstrat data type = 0, data = 2001, References:  252627
+19 years have been passed!!!
+8: 
+9: 

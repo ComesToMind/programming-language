@@ -24,9 +24,13 @@ ObjectOriented * InOO(ifstream &ifst)
 	}
 	else
 	{
-		ifst >> o->mData;
-		ifst >> o->mRef;
-		//ifst.getline(error, 256);
+		char b;
+		ifst >> b;
+		while (!ifst.eof() && ifst.peek() != '\n')
+		{
+			ifst >> b;
+			//b=?
+		}
 		return NULL;
 	}
 	ifst >> o->mData;
