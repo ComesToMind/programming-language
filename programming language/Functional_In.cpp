@@ -1,5 +1,6 @@
 #include <fstream>
 #include "Functional.h"
+#include <vector>
 using namespace std;
 
 Functional * InFunc(ifstream &ifst)
@@ -44,7 +45,22 @@ Functional * InFunc(ifstream &ifst)
 		}
 		return NULL;
 	}
-	ifst >> f->mData;
-	ifst >> f->mRef;
-	return f;
+	vector<int> tail;
+	while (!ifst.eof() && ifst.peek() != '\n')
+	{
+		ifst >> inh;
+		tail.push_back(inh);
+	}
+	if (tail.size() == 2)
+	{
+		f->mData = tail[0];
+		f->mRef = tail[1];
+		return f;
+
+	}
+	else
+	{
+		return NULL;
+	}
+	
 }

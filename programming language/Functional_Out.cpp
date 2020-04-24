@@ -15,7 +15,7 @@ void Out(Functional *p, ofstream &ofst) {
 	{
 		ofst << " DYNAMIC";
 	}
-	ofst << ", data = " << p->mData <<", references "<< p->mRef<< endl;
+	ofst << ", data = " << p->mData <<", references "<< p->mRef;
 };
 int YearsPassed(Functional *p)
 {

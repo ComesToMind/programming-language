@@ -13,7 +13,7 @@ void Out(Language *lg, ofstream &ofst)
 {
 	if (lg == NULL)
 	{
-		ofst << "Incorrect type of language!" << endl;
+		ofst << "!!! INCORRECT type of language !!!";
 	}
 	else
 	{

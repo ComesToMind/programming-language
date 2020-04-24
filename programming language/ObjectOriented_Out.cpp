@@ -19,7 +19,7 @@ void Out(ObjectOriented *o, ofstream &ofst)
 	else
 		ofst << "INTERFACE";
 
-	ofst << ", data = " << o->mData << ", References:  " << o->mRef << endl;
+	ofst << ", data = " << o->mData << ", References:  " << o->mRef;
 }; 
 
 int YearsPassed(ObjectOriented *o)

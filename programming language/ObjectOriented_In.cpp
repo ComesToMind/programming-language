@@ -1,5 +1,6 @@
 #include <fstream>
 #include "ObjectOriented.h"
+#include <vector>
 using namespace std;
 
 
@@ -14,18 +15,17 @@ ObjectOriented * InOO(ifstream &ifst)
 	{
 		o->mInher = ObjectOriented::SINGLE;
 	}
-	else if (inh == 1)
-	{
-		o->mInher = ObjectOriented::MULTIPLE;
-	}
-	else if (inh == 2)
-	{
-		o->mInher = ObjectOriented::INTERFACE;
-	}
+		else if (inh == 1)
+		{
+			o->mInher = ObjectOriented::MULTIPLE;
+		}
+			else if (inh == 2)
+			{
+				o->mInher = ObjectOriented::INTERFACE;
+			}
 	else
 	{
 		char b;
-		ifst >> b;
 		while (!ifst.eof() && ifst.peek() != '\n')
 		{
 			ifst >> b;
@@ -33,8 +33,22 @@ ObjectOriented * InOO(ifstream &ifst)
 		}
 		return NULL;
 	}
-	ifst >> o->mData;
-	ifst >> o->mRef;
-	return o;
 
+	vector<int> tail;
+	while (!ifst.eof() && ifst.peek() != '\n')
+	{
+		ifst >> inh;
+		tail.push_back(inh);
+	}
+	if (tail.size() == 2)
+	{
+		o->mData = tail[0];
+		o->mRef = tail[1];
+		return o;
+
+	}
+	else
+	{
+		return NULL;
+	}
 }

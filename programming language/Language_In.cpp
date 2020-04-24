@@ -19,12 +19,11 @@ Language * In(int key, ifstream &ifst)
 		return (Language *)InFunc(ifst);
 	default:
 		char b;
-		ifst >> b;
-		//÷èòàòåì äî êîíöà ñòðîêè
+		//ifst >> b;
+		//read to end of row
 		while (!ifst.eof() && ifst.peek() != '\n')
 		{
 			ifst >> b;
-			//b=?
 		}
 		return NULL;
 	}
