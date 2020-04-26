@@ -19,8 +19,6 @@ Language * In(int key, ifstream &ifst)
 		return (Language *)InFunc(ifst);
 	default:
 		char b;
-		//ifst >> b;
-		//read to end of row
 		while (!ifst.eof() && ifst.peek() != '\n')
 		{
 			ifst >> b;
@@ -33,6 +31,15 @@ Language* In(ifstream &ifst) {
 	Language *lg;
 	int k;
 	ifst >> k;
+	
+	if (ifst.fail())
+	{
+		//Восстановили поток
+		ifst.clear();
+		ifst.ignore(numeric_limits<streamsize>::max(), '\n');
+		return NULL;
+	}
+
 	lg = In(k, ifst);
 	return lg;
 
