@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-Functional * InFunc(ifstream &ifst)
+Functional * inFunc(ifstream &ifst)
 {
 	Functional * f;
 	f = new Functional;

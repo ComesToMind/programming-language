@@ -3,20 +3,20 @@
 #include "Language.h"
 using namespace std;
 
-ObjectOriented* InOO(ifstream &ifst);
-Procedural * InProc(ifstream &ifst);
-Functional * InFunc(ifstream &ifst);
+ObjectOriented* inOO(ifstream &ifst);
+Procedural * inProc(ifstream &ifst);
+Functional * inFunc(ifstream &ifst);
 Language * In(int key, ifstream &ifst)
 {
 	int inh;
 	switch (key)
 	{
 	case 1:
-		return (Language *)InProc(ifst);
+		return (Language *)inProc(ifst);
 	case 2:
-		return (Language *)InOO(ifst);
+		return (Language *)inOO(ifst);
 	case 3: 
-		return (Language *)InFunc(ifst);
+		return (Language *)inFunc(ifst);
 	default:
 		char b;
 		do 

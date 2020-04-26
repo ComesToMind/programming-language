@@ -2,7 +2,7 @@
 #include <fstream>
 using namespace std;
 void Out(Language *lg, ofstream &ofst);
-int YearsPassed(Language *lg);
+int passedYears(Language *lg);
 bool Compare(Language *first, Language *second);
 
 void Sort(Container *&c)
@@ -52,7 +52,7 @@ void Out(Container &c, ofstream &ofst)
 		{
 			ofst << i << ": ";
 			Out(temp->L, ofst);
-			ofst <<"\t\t" << YearsPassed(temp->L) << " years have been passed!!!" << endl;
+			ofst <<"\t\t" << passedYears(temp->L) << " years have been passed!!!" << endl;
 			temp = temp->Next;
 			i++;
 		} while (temp != &c);
@@ -64,7 +64,7 @@ void Out(Container &c, ofstream &ofst)
 			if (temp2->L!=NULL&&temp2->L->mKey == type::PROCEDURAL)
 			{
 				Out(temp2->L, ofst);
-				ofst <<"\t\t"<<YearsPassed(temp2->L) << " years have been passed!!!" << endl;
+				ofst <<"\t\t"<<passedYears(temp2->L) << " years have been passed!!!" << endl;
 			}
 			else
 			{

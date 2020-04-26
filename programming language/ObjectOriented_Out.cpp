@@ -22,7 +22,7 @@ void Out(ObjectOriented *o, ofstream &ofst)
 	ofst << ", data = " << o->mData << ", References:  " << o->mRef;
 }; 
 
-int YearsPassed(ObjectOriented *o)
+int passedYears(ObjectOriented *o)
 {
 	time_t seconds = time(NULL);
 	tm* timeinfo = localtime(&seconds);

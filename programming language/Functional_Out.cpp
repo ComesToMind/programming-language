@@ -17,7 +17,7 @@ void Out(Functional *p, ofstream &ofst) {
 	}
 	ofst << ", data = " << p->mData <<", references "<< p->mRef;
 };
-int YearsPassed(Functional *p)
+int passedYears(Functional *p)
 {
 	time_t seconds = time(NULL);
 	tm* timeinfo = localtime(&seconds);

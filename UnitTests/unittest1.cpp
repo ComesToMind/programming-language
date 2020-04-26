@@ -31,7 +31,7 @@ namespace UnitTests
 		{
 			ObjectOriented language;
 			language.mData = 2014;
-			int actual = YearsPassed(&language);
+			int actual = passedYears(&language);
 			int expected = 2020 - language.mData;
 			Assert::AreEqual(expected, actual);
 		}
@@ -54,7 +54,7 @@ namespace UnitTests
 			//if (fin.is_open())
 			//{
 
-			Procedural *actual = InProc(fin);
+			Procedural *actual = inProc(fin);
 			Procedural *expected = new Procedural;
 
 			expected->mAbstractDT = 0;

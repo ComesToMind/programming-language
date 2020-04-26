@@ -4,7 +4,7 @@
 using namespace std;
 
 
-ObjectOriented * InOO(ifstream &ifst)
+ObjectOriented * inOO(ifstream &ifst)
 {
 	ObjectOriented * o;
 	o = new ObjectOriented;

@@ -11,7 +11,7 @@ void Out(Procedural *p, ofstream &ofst) {
 		<< ", data = " << p->mData << ", References:  " << p->mRef;
 };
 
-int YearsPassed(Procedural *p)
+int passedYears(Procedural *p)
 {
 	time_t seconds = time(NULL);
 	tm* timeinfo = localtime(&seconds);
