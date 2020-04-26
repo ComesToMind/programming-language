@@ -1,11 +1,97 @@
 Filled container. 
 Container contains that elements:
-0: Incorrect type of language!
+0: It is Procedural:   abstrat data type = 1, data = 1950
 1: It is Procedural:   abstrat data type = 0, data = 1953
 2: It is Procedural:   abstrat data type = 1, data = 1960
 3: It is Procedural:   abstrat data type = 1, data = 1971
 4: It is Object-Oriented: inheritance = SINGLE, data = 1970
 5: It is Object-Oriented: inheritance = MULTIPLE, data = 1973
 6: It is Object-Oriented: inheritance = INTERFACE, data = 1975
-7: Incorrect type of language!
+7: It is Object-Oriented: inheritance = SINGLE, data = 1980
+
+Multimethod.
+Procedural and Procedural.
+It is Procedural:   abstrat data type = 1, data = 1950
+It is Procedural:   abstrat data type = 0, data = 1953
+Procedural and Procedural.
+It is Procedural:   abstrat data type = 1, data = 1950
+It is Procedural:   abstrat data type = 1, data = 1960
+Procedural and Procedural.
+It is Procedural:   abstrat data type = 1, data = 1950
+It is Procedural:   abstrat data type = 1, data = 1971
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1950
+It is Object-Oriented: inheritance = SINGLE, data = 1970
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1950
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1950
+It is Object-Oriented: inheritance = INTERFACE, data = 1975
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1950
+It is Object-Oriented: inheritance = SINGLE, data = 1980
+Procedural and Procedural.
+It is Procedural:   abstrat data type = 0, data = 1953
+It is Procedural:   abstrat data type = 1, data = 1960
+Procedural and Procedural.
+It is Procedural:   abstrat data type = 0, data = 1953
+It is Procedural:   abstrat data type = 1, data = 1971
+Procedural and OOP.
+It is Procedural:   abstrat data type = 0, data = 1953
+It is Object-Oriented: inheritance = SINGLE, data = 1970
+Procedural and OOP.
+It is Procedural:   abstrat data type = 0, data = 1953
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973
+Procedural and OOP.
+It is Procedural:   abstrat data type = 0, data = 1953
+It is Object-Oriented: inheritance = INTERFACE, data = 1975
+Procedural and OOP.
+It is Procedural:   abstrat data type = 0, data = 1953
+It is Object-Oriented: inheritance = SINGLE, data = 1980
+Procedural and Procedural.
+It is Procedural:   abstrat data type = 1, data = 1960
+It is Procedural:   abstrat data type = 1, data = 1971
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1960
+It is Object-Oriented: inheritance = SINGLE, data = 1970
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1960
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1960
+It is Object-Oriented: inheritance = INTERFACE, data = 1975
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1960
+It is Object-Oriented: inheritance = SINGLE, data = 1980
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1971
+It is Object-Oriented: inheritance = SINGLE, data = 1970
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1971
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1971
+It is Object-Oriented: inheritance = INTERFACE, data = 1975
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1971
+It is Object-Oriented: inheritance = SINGLE, data = 1980
+OOP and OOP.
+It is Object-Oriented: inheritance = SINGLE, data = 1970
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973
+OOP and OOP.
+It is Object-Oriented: inheritance = SINGLE, data = 1970
+It is Object-Oriented: inheritance = INTERFACE, data = 1975
+OOP and OOP.
+It is Object-Oriented: inheritance = SINGLE, data = 1970
+It is Object-Oriented: inheritance = SINGLE, data = 1980
+OOP and OOP.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973
+It is Object-Oriented: inheritance = INTERFACE, data = 1975
+OOP and OOP.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973
+It is Object-Oriented: inheritance = SINGLE, data = 1980
+OOP and OOP.
+It is Object-Oriented: inheritance = INTERFACE, data = 1975
+It is Object-Oriented: inheritance = SINGLE, data = 1980
 Container is empty!
