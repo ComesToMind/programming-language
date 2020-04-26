@@ -19,10 +19,10 @@ Language * In(int key, ifstream &ifst)
 		return (Language *)InFunc(ifst);
 	default:
 		char b;
-		while (!ifst.eof() && ifst.peek() != '\n')
+		do 
 		{
 			ifst >> b;
-		}
+		}while(!ifst.eof() && ifst.peek() != '\n');
 		return NULL;
 	}
 

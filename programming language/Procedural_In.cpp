@@ -15,7 +15,7 @@ Procedural * InProc(ifstream &ifst)
 	int inh;
 	bool flag = true;
 	vector<int> tail;
-	while (!ifst.eof() && ifst.peek() != '\n')
+	do
 	{
 		ifst >> inh;
 		if (ifst.fail())
@@ -30,7 +30,7 @@ Procedural * InProc(ifstream &ifst)
 		{
 			tail.push_back(inh);
 		}
-	}
+	}while (!ifst.eof() && ifst.peek() != '\n');
 	if (tail.size() == 3 && flag)
 	{
 		if (tail[0] == 1 || tail[0] == 0)

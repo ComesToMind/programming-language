@@ -12,7 +12,7 @@ Functional * InFunc(ifstream &ifst)
 	int inh;
 	bool flag = true;
 	vector<int> tail;
-	while (!ifst.eof() && ifst.peek() != '\n')
+	do
 	{
 		ifst >> inh;
 		if (ifst.fail())
@@ -27,7 +27,7 @@ Functional * InFunc(ifstream &ifst)
 		{
 			tail.push_back(inh);
 		}
-	}
+	}while (!ifst.eof() && ifst.peek() != '\n');
 
 	if (tail.size() == 4 && flag)
 	{

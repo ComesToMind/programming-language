@@ -13,7 +13,7 @@ ObjectOriented * InOO(ifstream &ifst)
 	int inh;
 	bool flag = true;
 	vector<int> tail;
-	while (!ifst.eof() && ifst.peek() != '\n')
+	do
 	{
 		ifst >> inh;
 		if (ifst.fail())
@@ -28,7 +28,7 @@ ObjectOriented * InOO(ifstream &ifst)
 		{
 			tail.push_back(inh);
 		}
-	}
+	} while (!ifst.eof() && ifst.peek() != '\n');
 
 	if (tail.size() == 3 && flag)
 	{
