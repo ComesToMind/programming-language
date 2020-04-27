@@ -49,5 +49,172 @@ Container contains that elements:
 9: 
 10: 
 
+Multimethod.
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1950, References:  20000
+It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+Procedural and Functional
+It is Procedural:   abstrat data type = 1, data = 1950, References:  20000
+It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1950, References:  20000
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1950, References:  20000
+It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1950, References:  20000
+It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1950, References:  20000
+It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+Procedural and OOP.
+It is Procedural:   abstrat data type = 1, data = 1950, References:  20000
+It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+Unknown type.
+It is Procedural:   abstrat data type = 1, data = 1950, References:  20000
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Procedural:   abstrat data type = 1, data = 1950, References:  20000
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Procedural:   abstrat data type = 1, data = 1950, References:  20000
+!!! INCORRECT type of language !!!
+OOP and Functional
+It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+OOP and OOP.
+It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+OOP and OOP.
+It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+OOP and OOP.
+It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+OOP and OOP.
+It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+OOP and OOP.
+It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+Unknown type.
+It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = SINGLE, data = 1970, References:  91011
+!!! INCORRECT type of language !!!
+Functional and OOP.
+It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+Functional and OOP.
+It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+Functional and OOP.
+It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+Functional and OOP.
+It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+Functional and OOP.
+It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+Unknown type.
+It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Functional : lazy calculations = 1, typification =  DYNAMIC, data = 1971, references 5678
+!!! INCORRECT type of language !!!
+OOP and OOP.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+OOP and OOP.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+OOP and OOP.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+OOP and OOP.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+Unknown type.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1973, References:  121314
+!!! INCORRECT type of language !!!
+OOP and OOP.
+It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+OOP and OOP.
+It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+OOP and OOP.
+It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+Unknown type.
+It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = INTERFACE, data = 1975, References:  15161718
+!!! INCORRECT type of language !!!
+OOP and OOP.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+OOP and OOP.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+Unknown type.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = MULTIPLE, data = 1980, References:  192021
+!!! INCORRECT type of language !!!
+OOP and OOP.
+It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+Unknown type.
+It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = SINGLE, data = 2002, References:  282930
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+!!! INCORRECT type of language !!!
+Unknown type.
+It is Object-Oriented: inheritance = MULTIPLE, data = 2003, References:  313233
+!!! INCORRECT type of language !!!
+Unknown type.
+!!! INCORRECT type of language !!!
+!!! INCORRECT type of language !!!
+Unknown type.
+!!! INCORRECT type of language !!!
+!!! INCORRECT type of language !!!
+Unknown type.
+!!! INCORRECT type of language !!!
+!!! INCORRECT type of language !!!
+
 
 Container is empty!

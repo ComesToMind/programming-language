@@ -8,6 +8,7 @@ void Clear(Container *&c);
 void In(Container &c, ifstream &ifst);
 void Out(Container &c, ofstream &ofst);
 void Sort(Container *&c);
+void MultiMethod(Container &c, ofstream &ofst);
 int main(int argc, char* argv[]) 
 {
 	if (argc != 3) {
@@ -25,9 +26,13 @@ int main(int argc, char* argv[])
 	ofst << "Filled container. " << endl;
 	Out(*c, ofst);
 
+
 	ofst << endl << endl << "Sorted Container!!!" << endl;
 	Sort(c);
 	Out(*c, ofst);
+
+	MultiMethod(*c, ofst);
+	
 
 	ofst << endl << endl;
 	Clear(c);
